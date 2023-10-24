@@ -33,6 +33,7 @@ app.UseIpRateLimiting();
 
 
 <-------- appsettings.json ------------>
+
 "ClientRateLimiting": {
     "EnableEndpointRateLimiting": true,
     "StackBlockedRequests": false,
@@ -71,6 +72,8 @@ app.UseIpRateLimiting();
         },
     ]
 }
+
+
 
 You can now send a limited number of requests to your Endpoints
 
